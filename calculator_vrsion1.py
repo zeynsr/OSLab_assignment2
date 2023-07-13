@@ -33,17 +33,17 @@ while True:
          result = a / b
        else:
           result = 'cannot divide by zero'  
-    elif op == 'Log' :
-            result=math.log10(a)
-    elif op == 'Sin' :
-            result=math.sin(math.radians(a))
-    elif op == 'Cos' :
-            result=math.cos(math.radians(a))        
-    elif op == 'Tan' :
-            result=math.tan(math.radians(a))
-    elif op == 'Cot' :
-            r=math.tan(math.radians(a))
-            result=1/r           
+    elif op == 'Log':
+            result = math.log10(a)
+    elif op == 'Sin':
+            result = math.sin(math.radians(a))
+    elif op == 'Cos':
+            result = math.cos(math.radians(a))        
+    elif op == 'Tan':
+            result = math.tan(math.radians(a))
+    elif op == 'Cot':
+            r = math.tan(math.radians(a))
+            result = 1/r           
     else:
             result = 'command not found !'    
     print(result)        
